@@ -14,7 +14,7 @@ if (age <= 18){
 }else {
     console.log("Trop vieux !");
 }
-
+/*
 // Ajout d'un paragrpahe
 let bloc = document.querySelector("#main");
 bloc.innerHTML = "<p>paragraphe</p>";
@@ -26,7 +26,7 @@ for (let i=0; i<10; i++){
 }
 // Changer du style en js
 bloc.style.color = "red";
-
+*/
 let identification = document.querySelector("#connexion");
 identification.addEventListener("click", (evt => {
     alert("coucou");
