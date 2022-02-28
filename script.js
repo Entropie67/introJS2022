@@ -1,5 +1,4 @@
 
-
 console.log("Bonjour, je suis un message");
 document.write("ICI");
 
@@ -10,7 +9,6 @@ for (let i=0; i<10; i++){
 
 // Syntaxe pour une condition
 let age = 12;
-
 if (age <= 18){
     console.log("OK");
 }else {
@@ -24,5 +22,12 @@ bloc.innerHTML = "<p>paragraphe</p>";
 // ajout de plusieurs paragraphes avec une boucle
 let blocBoucle = document.querySelector("#main");
 for (let i=0; i<10; i++){
-    bloc.innerHTML = "<p>paragraphe</p>";
+    bloc.innerHTML += `<p>paragraphe numéro ${i}</p>`;
 }
+// Changer du style en js
+bloc.style.color = "red";
+
+let identification = document.querySelector("#identification");
+identification.addEventListener("click", (evt => {
+    alert("coucou");
+}));
