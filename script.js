@@ -27,7 +27,7 @@ for (let i=0; i<10; i++){
 // Changer du style en js
 bloc.style.color = "red";
 
-let identification = document.querySelector("#identification");
+let identification = document.querySelector("#connexion");
 identification.addEventListener("click", (evt => {
     alert("coucou");
 }));
